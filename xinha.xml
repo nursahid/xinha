@@ -907,7 +907,7 @@
 
     <params>
         <param name="skin" type="list" default="" label="Skin" description="Editor Skin">
-            <option value="">- No skin -</option>
+            <option value="">- Default -</option>
             <option value="blue-look">Blue Look</option>
             <option value="blue-metallic">Blue Metallic</option>
             <option value="green-look">Green Look</option>
@@ -951,5 +951,54 @@
             <option value="th">Thai</option>
             <option value="vn">Vietnamese</option>
         </param>
+    </params>
+    <params group="advanced">
+        <param name="plugin_Abbreviation" type="radio" default="0" label="Abbreviation" description="Load Abbreviation plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_BackgroundImage" type="radio" default="0" label="BackgroundImage" description="Load BackgroundImage plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_CharacterMap" type="radio" default="1" label="CharacterMap" description="Load CharacterMap plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_CharCounter" type="radio" default="0" label="CharCounter" description="Load CharCounter plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_ClientsideSpellcheck" type="radio" default="0" label="ClientsideSpellcheck" description="Load ClientsideSpellcheck plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_ContextMenu" type="radio" default="1" label="ContextMenu" description="Load ContextMenu plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_CSS" type="radio" default="0" label="CSS" description="Load CSS plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_DefinitionList" type="radio" default="0" label="DefinitionList" description="Load DefinitionList plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_DoubleClick" type="radio" default="0" label="DoubleClick" description="Load DoubleClick plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_DynamicCSS" type="radio" default="0" label="DynamicCSS" description="Load DynamicCSS plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_EditTag" type="radio" default="0" label="EditTag" description="Load EditTag plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_Equation" type="radio" default="0" label="Equation" description="Load Equation plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_ExtendedFileManager" type="radio" default="0" label="ExtendedFileManager" description="Load ExtendedFileManager plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_Filter" type="radio" default="0" label="Filter" description="Load Filter plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_FindReplace" type="radio" default="0" label="FindReplace" description="Load FindReplace plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_FormOperations" type="radio" default="0" label="FormOperations" description="Load FormOperations plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_Forms" type="radio" default="0" label="Forms" description="Load Forms plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_FullPage" type="radio" default="0" label="FullPage" description="Load FullPage plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_GenericPlugin" type="radio" default="0" label="GenericPlugin" description="Load GenericPlugin plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_GetHtml" type="radio" default="0" label="GetHtml" description="Load GetHtml plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_HorizontalRule" type="radio" default="0" label="HorizontalRule" description="Load HorizontalRule plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_HtmlEntities" type="radio" default="0" label="HtmlEntities" description="Load HtmlEntities plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_HtmlTidy" type="radio" default="0" label="HtmlTidy" description="Load HtmlTidy plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_ImageManager" type="radio" default="1" label="ImageManager" description="Load ImageManager plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_InsertAnchor" type="radio" default="0" label="InsertAnchor" description="Load InsertAnchor plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_InsertMarquee" type="radio" default="0" label="InsertMarquee" description="Load InsertMarquee plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_InsertPagebreak" type="radio" default="0" label="InsertPagebreak" description="Load InsertPagebreak plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_InsertPicture" type="radio" default="0" label="InsertPicture" description="Load InsertPicture plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_InsertSmiley" type="radio" default="0" label="InsertSmiley" description="Load InsertSmiley plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_InsertSnippet" type="radio" default="0" label="InsertSnippet" description="Load InsertSnippet plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_InsertWords" type="radio" default="0" label="InsertWords" description="Load InsertWords plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_LangMarks" type="radio" default="0" label="LangMarks" description="Load LangMarks plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_Linker" type="radio" default="1" label="Linker" description="Load Linker plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_ListType" type="radio" default="1" label="ListType" description="Load ListType plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_NoteServer" type="radio" default="0" label="NoteServer" description="Load NoteServer plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_PasteText" type="radio" default="0" label="PasteText" description="Load PasteText plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_PreserveScripts" type="radio" default="0" label="PreserveScripts" description="Load PreserveScripts plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_QuickTag" type="radio" default="0" label="QuickTag" description="Load QuickTag plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_SaveSubmit" type="radio" default="0" label="SaveSubmit" description="Load SaveSubmit plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_SetId" type="radio" default="0" label="SetId" description="Load SetId plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_SmartReplace" type="radio" default="0" label="SmartReplace" description="Load SmartReplace plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_SpellChecker" type="radio" default="0" label="SpellChecker" description="Load SpellChecker plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_Stylist" type="radio" default="1" label="Stylist" description="Load Stylist plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_SuperClean" type="radio" default="1" label="SuperClean" description="Load SuperClean plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_TableOperations" type="radio" default="1" label="TableOperations" description="Load TableOperations plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_Template" type="radio" default="0" label="Template" description="Load Template plugin"><option value="1">Yes</option><option value="0">No</option></param>
+        <param name="plugin_UnFormat" type="radio" default="0" label="UnFormat" description="Load UnFormat plugin"><option value="1">Yes</option><option value="0">No</option></param>
     </params>
 </install>
