@@ -56,7 +56,7 @@ $IMConfig['base_url'] = '';
 
 // $IMConfig['images_dir'] = "/some/path/to/images/directory;
 
-$IMConfig['images_dir'] = "../../../../../";
+$IMConfig['images_dir'] = "../../../../../images";
 
 // -------------------------------------------------------------------------
 
@@ -79,7 +79,7 @@ $IMConfig['images_dir'] = "../../../../../";
 // try to figure out the URL of the sample images directory. For your installation
 // you will probably want to keep images in another directory.
 
-$IMConfig['images_url'] = str_replace( "backend.php", "", $_SERVER["PHP_SELF"] ) . "../../../../../";
+$IMConfig['images_url'] = str_replace( "backend.php", "", $_SERVER["PHP_SELF"] ) . "../../../../../images";
 
 // -------------------------------------------------------------------------
 
